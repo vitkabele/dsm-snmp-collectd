@@ -66,6 +66,8 @@ A temperature for all available disks installed in NAS.
 Collect "dsm.diskTemperature"
 ```
 
+![Disk Temperature](img/temperature.png)
+
 ### Disk utilization 💾
 
 An amout of bytes read/written to each device.
@@ -123,6 +125,7 @@ A temperature of the Synology NAS.
 ```
 Collect "dsm.temperature"
 ```
+![System Temperature](img/temperature.png)
 
 ### Uptime ⏱
 
@@ -131,6 +134,6 @@ A diskstation uptime. The actual value is in days.
 ```
 Collect "dsm.uptime"
 ```
-
+![Uptime](img/uptime.png)
 > The value is received in milliseconds. The conversion to days is performed by this
 > profile by multiplying each received value by 1/(100\*60\*60\*24)
